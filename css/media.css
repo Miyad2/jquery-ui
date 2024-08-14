@@ -1,0 +1,248 @@
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+  .features-items {
+    padding: 20px;
+  }
+
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  /*---- side menu---- */
+
+  .logo-align_r {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  button.navbar-toggler {
+    display: none;
+  }
+
+  .logo-align-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  section.offcan_section.d-lg-none {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+  /* ------------------- */
+
+  .subscription-form {
+    width: 60%;
+    margin: auto;
+  }
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1b1b1b;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*---- side menu---- */
+
+  .logo-align_r {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  /* ------------------- */
+
+  li.nav-item a.nav-link.after {
+    margin: 0px;
+  }
+
+  .subscription-form {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*---- side menu---- */
+
+  header.sticky-nav .navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+  }
+
+  /* -------------------- */
+
+  .features-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-items-heading {
+    text-align: center;
+  }
+
+  .footer-content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .f_item {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .features-heading {
+    width: 100%;
+  }
+
+  .subscription-heading {
+    width: 100%;
+  }
+
+  .subscription-form {
+    width: 90%;
+  }
+
+  .subscription-form form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .features-items {
+    padding: 8px;
+  }
+
+  .features-icon svg {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+}
